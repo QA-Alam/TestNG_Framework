@@ -1,0 +1,180 @@
+2022-12-24 16:37:56,856 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 16:37:57,891 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 16:37:57,923 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 16:38:08,496 - Test Lead Alam -INFO - ******** User is able to click on signin button *********
+2022-12-24 16:53:32,433 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 16:53:33,229 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 16:53:33,321 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 16:53:43,073 - Test Lead Alam -INFO - ******** User is able to click on signin button *********
+2022-12-24 16:54:25,979 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 16:54:26,571 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 16:54:26,630 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 16:54:35,709 - Test Lead Alam -INFO - ******** User is able to click on signin button *********
+2022-12-24 16:55:48,926 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 16:55:49,542 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 16:55:49,601 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 16:55:59,158 - Test Lead Alam -INFO - ******** User is able to click on signin button *********
+2022-12-24 16:57:08,365 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 16:57:08,957 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 16:57:09,023 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 16:57:18,050 - Test Lead Alam -INFO - ******** User is able to click on signin button *********
+2022-12-24 17:12:01,520 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 17:12:02,185 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 17:12:02,214 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 17:12:12,094 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 17:15:20,040 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 17:15:20,672 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 17:15:20,814 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 17:15:30,421 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 17:15:33,263 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 17:15:33,844 - Test Lead Alam -INFO - User able to enter password
+2022-12-24 17:17:12,312 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 17:17:13,035 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 17:17:13,115 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 17:17:23,495 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 17:17:25,985 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 17:17:26,740 - Test Lead Alam -INFO - User able to enter password
+2022-12-24 17:17:27,075 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-24 17:18:01,415 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 17:18:02,069 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 17:18:02,182 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 17:18:11,931 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 17:18:14,279 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 17:18:14,850 - Test Lead Alam -INFO - User able to enter password
+2022-12-24 17:18:15,061 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-24 17:30:29,581 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 17:30:30,249 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 17:30:30,308 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 17:30:41,013 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 17:30:43,557 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 17:30:44,144 - Test Lead Alam -INFO - User able to enter password
+2022-12-24 17:30:44,372 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-24 17:30:46,748 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 17:30:46,779 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 17:30:46,803 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 17:32:12,479 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 17:32:13,040 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 17:32:13,097 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 17:32:24,015 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 17:32:26,339 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 17:32:26,952 - Test Lead Alam -INFO - User able to enter password
+2022-12-24 17:32:27,166 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-24 17:32:29,310 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 17:32:29,363 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 17:32:29,394 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 17:34:55,749 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 17:34:56,371 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 17:34:56,432 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 17:35:06,387 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 17:35:09,076 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 17:35:09,677 - Test Lead Alam -INFO - User able to enter password
+2022-12-24 17:35:09,953 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-24 17:37:39,390 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 17:37:39,957 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 17:37:40,011 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 17:37:49,265 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 17:37:52,174 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 17:37:52,881 - Test Lead Alam -INFO - User able to enter password
+2022-12-24 17:37:53,556 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-24 17:37:56,074 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-24 17:37:56,691 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-24 17:37:56,922 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-24 17:39:05,880 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 17:39:06,853 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 17:39:06,885 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 17:39:16,543 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 17:39:25,686 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 17:46:27,313 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 17:46:28,013 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 17:46:28,095 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 17:46:38,646 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 17:46:41,321 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 17:46:42,021 - Test Lead Alam -INFO - User able to enter password
+2022-12-24 17:46:42,242 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-24 17:46:44,576 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-24 17:46:45,187 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-24 17:46:45,405 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-24 18:02:31,891 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 18:02:32,468 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 18:02:32,527 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 18:02:42,398 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 18:02:44,715 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 18:02:45,330 - Test Lead Alam -INFO - User able to enter password
+2022-12-24 18:02:45,543 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-24 18:02:47,791 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-24 18:02:48,420 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-24 18:02:48,624 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-24 18:08:45,424 - Test Lead Alam -INFO - onStart : Test
+2022-12-24 18:08:45,539 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 18:08:46,075 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 18:08:46,153 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 18:08:55,829 - Test Lead Alam -INFO - onTestStart : getloggerinApplication
+2022-12-24 18:08:55,990 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 18:08:58,865 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 18:08:59,460 - Test Lead Alam -INFO - User able to enter password
+2022-12-24 18:08:59,717 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-24 18:09:02,471 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-24 18:09:03,089 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-24 18:09:03,412 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-24 18:09:05,142 - Test Lead Alam -INFO - onTestSuccess : getloggerinApplication
+2022-12-24 18:09:06,957 - Test Lead Alam -INFO - onFinish : Test
+2022-12-24 18:10:29,556 - Test Lead Alam -INFO - onStart : Test
+2022-12-24 18:10:29,719 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 18:10:30,373 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 18:10:30,450 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 18:10:40,260 - Test Lead Alam -INFO - onTestStart : getloginApplication
+2022-12-24 18:10:40,456 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 18:10:42,930 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 18:10:43,431 - Test Lead Alam -INFO - User able to enter password
+2022-12-24 18:10:43,657 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-24 18:10:45,807 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-24 18:10:46,460 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-24 18:10:46,683 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-24 18:10:48,130 - Test Lead Alam -INFO - onTestSuccess : getloginApplication
+2022-12-24 18:10:49,705 - Test Lead Alam -INFO - onFinish : Test
+2022-12-24 19:28:46,915 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 19:28:48,632 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 19:28:48,670 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 19:28:59,639 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 19:29:02,033 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 19:29:02,735 - Test Lead Alam -INFO - User able to enter password
+2022-12-24 19:29:02,981 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-24 19:29:05,508 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-24 19:29:06,127 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-24 19:29:06,348 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-24 19:31:07,135 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 19:31:08,210 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 19:31:08,272 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 19:31:19,057 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 19:31:21,376 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 19:31:21,940 - Test Lead Alam -INFO - User able to enter password
+2022-12-24 19:31:22,164 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-24 19:31:24,565 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-24 19:31:25,118 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-24 19:31:25,353 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-24 19:33:23,805 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 19:33:24,844 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 19:33:24,894 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 19:34:03,776 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 19:34:05,377 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 19:34:05,433 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 19:35:00,922 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 19:35:01,919 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 19:35:02,001 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 19:35:13,641 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 19:35:16,243 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 19:35:16,863 - Test Lead Alam -INFO - User able to enter password
+2022-12-24 19:35:17,104 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-24 19:35:19,625 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-24 19:35:20,416 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-24 19:35:20,615 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-24 19:36:55,035 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-24 19:36:55,940 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-24 19:36:56,006 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-24 19:37:06,675 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-24 19:37:08,952 - Test Lead Alam -INFO - User able to enter username
+2022-12-24 19:37:10,045 - Test Lead Alam -INFO - User able to enter password
+2022-12-24 19:37:10,535 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-24 19:37:12,726 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-24 19:37:13,443 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-24 19:37:13,658 - Test Lead Alam -INFO - User able to click on Jackets
