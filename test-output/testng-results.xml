@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-25T00:36:54Z" name="Suite" finished-at="2022-12-25T00:37:17Z" duration-ms="22522">
+  <suite started-at="2022-12-27T02:16:27Z" name="Suite" finished-at="2022-12-27T02:16:42Z" duration-ms="15448">
     <groups>
     </groups>
-    <test started-at="2022-12-25T00:36:54Z" name="Test" finished-at="2022-12-25T00:37:17Z" duration-ms="22522">
+    <test started-at="2022-12-27T02:16:27Z" name="Test" finished-at="2022-12-27T02:16:42Z" duration-ms="15448">
       <class name="smarttech.nyc.moduletest.ManModuleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@3de8f619]" started-at="2022-12-25T00:36:55Z" name="setUp" finished-at="2022-12-25T00:37:06Z" duration-ms="11078" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@15bb5034]" started-at="2022-12-27T02:16:27Z" name="setUp" finished-at="2022-12-27T02:16:34Z" duration-ms="6871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getloginApplication()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@3de8f619]" started-at="2022-12-25T00:37:06Z" name="getloginApplication" finished-at="2022-12-25T00:37:16Z" duration-ms="9988" status="PASS">
+        <test-method signature="getloginApplication()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@15bb5034]" started-at="2022-12-27T02:16:34Z" name="getloginApplication" finished-at="2022-12-27T02:16:41Z" duration-ms="7311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getloginApplication -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@3de8f619]" started-at="2022-12-25T00:37:16Z" name="tearDown" finished-at="2022-12-25T00:37:17Z" duration-ms="1371" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@15bb5034]" started-at="2022-12-27T02:16:41Z" name="tearDown" finished-at="2022-12-27T02:16:42Z" duration-ms="1202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

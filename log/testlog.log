@@ -178,3 +178,75 @@
 2022-12-24 19:37:12,726 - Test Lead Alam -INFO - User able to mousehover over the men module
 2022-12-24 19:37:13,443 - Test Lead Alam -INFO - User able to mousehover over the tops
 2022-12-24 19:37:13,658 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-26 20:23:38,529 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-26 20:23:40,373 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-26 20:23:40,412 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-26 20:23:51,629 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-26 20:23:53,750 - Test Lead Alam -INFO - User able to enter username
+2022-12-26 20:23:54,353 - Test Lead Alam -INFO - User able to enter password
+2022-12-26 20:23:54,612 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-26 20:23:56,563 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-26 20:23:57,308 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-26 20:23:57,571 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-26 20:26:43,868 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-26 20:26:46,116 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-26 20:26:46,214 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-26 20:27:00,412 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-26 20:27:02,343 - Test Lead Alam -INFO - User able to enter username
+2022-12-26 20:27:03,004 - Test Lead Alam -INFO - User able to enter password
+2022-12-26 20:27:03,224 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-26 20:27:05,352 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-26 20:27:05,939 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-26 20:27:06,194 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-26 20:29:52,351 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-26 20:29:55,000 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-26 20:29:55,138 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-26 20:30:08,418 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-26 20:30:10,148 - Test Lead Alam -INFO - User able to enter username
+2022-12-26 20:30:13,266 - Test Lead Alam -INFO - User able to enter password
+2022-12-26 20:30:14,106 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-26 20:30:17,490 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-26 20:30:18,861 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-26 20:30:19,334 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-26 20:31:54,112 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-26 20:31:56,313 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-26 20:31:56,669 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\moham\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-26 20:32:12,652 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-26 20:32:15,560 - Test Lead Alam -INFO - User able to enter username
+2022-12-26 20:32:16,507 - Test Lead Alam -INFO - User able to enter password
+2022-12-26 20:32:16,820 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-26 20:32:19,885 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-26 20:32:20,504 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-26 20:32:20,855 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-26 21:03:10,331 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-26 21:03:17,279 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-26 21:03:18,927 - Test Lead Alam -INFO - User able to enter username
+2022-12-26 21:03:19,349 - Test Lead Alam -INFO - User able to enter password
+2022-12-26 21:03:19,599 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-26 21:03:21,416 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-26 21:03:21,865 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-26 21:03:22,066 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-26 21:11:09,151 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-26 21:11:17,241 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-26 21:11:18,896 - Test Lead Alam -INFO - User able to enter username
+2022-12-26 21:11:19,434 - Test Lead Alam -INFO - User able to enter password
+2022-12-26 21:11:19,619 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-26 21:11:21,372 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-26 21:11:21,869 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-26 21:11:22,068 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-26 21:14:58,979 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-26 21:15:06,915 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-26 21:15:08,917 - Test Lead Alam -INFO - User able to enter username
+2022-12-26 21:15:09,533 - Test Lead Alam -INFO - User able to enter password
+2022-12-26 21:15:09,721 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-26 21:15:11,715 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-26 21:15:12,382 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-26 21:15:12,633 - Test Lead Alam -INFO - User able to click on Jackets
+2022-12-26 21:16:27,595 - Test Lead Alam -INFO - ******** I am a chrome browser*********
+2022-12-26 21:16:34,799 - Test Lead Alam -INFO - User able to click on sign in button
+2022-12-26 21:16:36,511 - Test Lead Alam -INFO - User able to enter username
+2022-12-26 21:16:37,070 - Test Lead Alam -INFO - User able to enter password
+2022-12-26 21:16:37,307 - Test Lead Alam -INFO - User able to click on loggerin button
+2022-12-26 21:16:39,141 - Test Lead Alam -INFO - User able to mousehover over the men module
+2022-12-26 21:16:39,619 - Test Lead Alam -INFO - User able to mousehover over the tops
+2022-12-26 21:16:39,862 - Test Lead Alam -INFO - User able to click on Jackets
