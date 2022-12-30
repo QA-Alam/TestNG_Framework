@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-30T04:52:28Z" name="Suite" finished-at="2022-12-30T04:53:01Z" duration-ms="32449">
+  <suite started-at="2022-12-30T04:56:21Z" name="Suite" finished-at="2022-12-30T04:56:53Z" duration-ms="32187">
     <groups>
     </groups>
-    <test started-at="2022-12-30T04:52:28Z" name="Test" finished-at="2022-12-30T04:53:01Z" duration-ms="32449">
+    <test started-at="2022-12-30T04:56:21Z" name="Test" finished-at="2022-12-30T04:56:53Z" duration-ms="32187">
       <class name="smarttech.nyc.moduletest.ManModuleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@34bde49d]" started-at="2022-12-30T04:52:29Z" name="setUp" finished-at="2022-12-30T04:52:34Z" duration-ms="5134" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@34bde49d]" started-at="2022-12-30T04:56:22Z" name="setUp" finished-at="2022-12-30T04:56:27Z" duration-ms="4799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getloginApplication(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@34bde49d]" started-at="2022-12-30T04:52:34Z" name="getloginApplication" data-provider="getTestData" finished-at="2022-12-30T04:53:00Z" duration-ms="25459" status="PASS">
+        <test-method signature="getloginApplication(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@34bde49d]" started-at="2022-12-30T04:56:27Z" name="getloginApplication" data-provider="getTestData" finished-at="2022-12-30T04:56:52Z" duration-ms="25759" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getloginApplication -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@34bde49d]" started-at="2022-12-30T04:53:00Z" name="tearDown" finished-at="2022-12-30T04:53:01Z" duration-ms="943" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@34bde49d]" started-at="2022-12-30T04:56:52Z" name="tearDown" finished-at="2022-12-30T04:56:53Z" duration-ms="741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

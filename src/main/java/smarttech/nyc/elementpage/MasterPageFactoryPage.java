@@ -378,6 +378,19 @@ public class MasterPageFactoryPage extends SupperClass {
 		logger.info("User able to click Place Order");
 		WaitHelper.seleniumWait(getClickOnPlaceOrder(), 30);
 		CommonUtility.getJSClick(getClickOnPlaceOrder());
+
+		logger.info("User able to verify Thank You text");
+		HighLightElements.drawBorder(getVerifiedPurchaseText());
+		WaitHelper.seleniumWait(getVerifiedPurchaseText(), 30);
+		String actualV = getVerifiedPurchaseText().getText();
+		String expectedV = prop.getProperty("VerifyPurchaseText");
+		CommonUtility.getAssert(expectedV, actualV);
+
+		logger.info("User able to verify Thank You text");
+		HighLightElements.drawBorder(getVerifiedOrderNumber());
+		WaitHelper.seleniumWait(getVerifiedOrderNumber(), 30);
+		String actualNum = getVerifiedPurchaseText().getText();
+		System.out.println(actualNum);
 	}
 
 	public void addShippingDetails() {
@@ -533,18 +546,4 @@ public class MasterPageFactoryPage extends SupperClass {
 
 	}
 
-	public void getVerifyOrderNum() {
-		logger.info("User able to verify Thank You text");
-		HighLightElements.drawBorder(getVerifiedPurchaseText());
-		WaitHelper.seleniumWait(getVerifiedPurchaseText(), 30);
-		String actualV = getVerifiedPurchaseText().getText();
-		String expectedV = prop.getProperty("VerifyPurchaseText");
-		CommonUtility.getAssert(expectedV, actualV);
-
-		logger.info("User able to verify Thank You text");
-		HighLightElements.drawBorder(getVerifiedOrderNumber());
-		WaitHelper.seleniumWait(getVerifiedOrderNumber(), 30);
-		String actualNum = getVerifiedPurchaseText().getText();
-		System.out.println(actualNum);
-	}
 }

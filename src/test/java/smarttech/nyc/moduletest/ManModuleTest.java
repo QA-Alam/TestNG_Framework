@@ -34,7 +34,6 @@ public class ManModuleTest extends SupperClass {
 		try {
 			pf.getVerifyJackectPrice();
 			pf.addAddressDetails(First_Name, Last_Name, Company, Street_Address, City, Postal_Code, Phone_Number);
-			pf.getVerifyOrderNum();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
