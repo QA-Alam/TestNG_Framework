@@ -6,11 +6,10 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import smarttech.nyc.basepage.SupperClass;
 import smarttech.nyc.elementpage.MasterPageFactoryPage;
-import smarttech.nyc.generic.TestUtil;
+import smarttech.nyc.generic.CommonUtility;
 
 public class ManModuleTest extends SupperClass {
 	MasterPageFactoryPage pf;
-	TestUtil testUtil;
 
 	public ManModuleTest() {
 		super();
@@ -24,7 +23,7 @@ public class ManModuleTest extends SupperClass {
 
 	@DataProvider
 	public Object[][] getTestData() {
-		Object data[][] = TestUtil.getTestData("dataSet");
+		Object data[][] = CommonUtility.getTestData("dataSet");
 		return data;
 	}
 

@@ -2,16 +2,27 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-30T04:56:21Z" name="Suite" finished-at="2022-12-30T04:56:53Z" duration-ms="32187">
+  <suite started-at="2022-12-30T15:04:07Z" name="Suite" finished-at="2022-12-30T15:04:45Z" duration-ms="38082">
     <groups>
     </groups>
-    <test started-at="2022-12-30T04:56:21Z" name="Test" finished-at="2022-12-30T04:56:53Z" duration-ms="32187">
+    <test started-at="2022-12-30T15:04:07Z" name="Test" finished-at="2022-12-30T15:04:45Z" duration-ms="38082">
       <class name="smarttech.nyc.moduletest.ManModuleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@34bde49d]" started-at="2022-12-30T04:56:22Z" name="setUp" finished-at="2022-12-30T04:56:27Z" duration-ms="4799" status="PASS">
+        <test-method is-config="true" signature="setupBeforeSuite(org.testng.ITestContext)[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1be2019a]" started-at="2022-12-30T15:04:07Z" name="setupBeforeSuite" finished-at="2022-12-30T15:04:08Z" duration-ms="779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c1d59cd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1be2019a]" started-at="2022-12-30T15:04:08Z" name="setUp" finished-at="2022-12-30T15:04:14Z" duration-ms="6339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getloginApplication(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@34bde49d]" started-at="2022-12-30T04:56:27Z" name="getloginApplication" data-provider="getTestData" finished-at="2022-12-30T04:56:52Z" duration-ms="25759" status="PASS">
+        <test-method signature="getloginApplication(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1be2019a]" started-at="2022-12-30T15:04:14Z" name="getloginApplication" data-provider="getTestData" finished-at="2022-12-30T15:04:44Z" duration-ms="29695" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,10 +63,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getloginApplication -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@34bde49d]" started-at="2022-12-30T04:56:52Z" name="tearDown" finished-at="2022-12-30T04:56:53Z" duration-ms="741" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1be2019a]" started-at="2022-12-30T15:04:44Z" name="tearDown" finished-at="2022-12-30T15:04:45Z" duration-ms="502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupAfterSuite(org.testng.ITestContext)[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1be2019a]" started-at="2022-12-30T15:04:45Z" name="setupAfterSuite" finished-at="2022-12-30T15:04:45Z" duration-ms="338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c1d59cd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterSuite -->
       </class> <!-- smarttech.nyc.moduletest.ManModuleTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

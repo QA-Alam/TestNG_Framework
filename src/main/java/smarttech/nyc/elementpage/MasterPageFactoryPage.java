@@ -324,60 +324,85 @@ public class MasterPageFactoryPage extends SupperClass {
 		getInputFirstName().clear();
 		WaitHelper.seleniumWait(getInputFirstName(), 30);
 		getInputFirstName().sendKeys(FName);
+		testresultdata.put("20",
+				new Object[] { 1d, "User able to add First Name", "It Should enterd the first name", "Pass" });
 
 		logger.info("User able to add Last Name");
 		getInputLastName().clear();
 		WaitHelper.seleniumWait(getInputLastName(), 30);
 		getInputLastName().sendKeys(LName);
+		testresultdata.put("21",
+				new Object[] { 1d, "User able to add Last Name", "It Should enterd the Last name", "Pass" });
 
 		logger.info("User able to add Company Name");
 		getInputCompanyName().clear();
 		WaitHelper.seleniumWait(getInputCompanyName(), 30);
 		getInputCompanyName().sendKeys(companyName);
+		testresultdata.put("22",
+				new Object[] { 1d, "User able to add Company Name", "It Should enterd the Company name", "Pass" });
 
 		logger.info("User able to add Street Name");
 		getInputStreetName().clear();
 		WaitHelper.seleniumWait(getInputStreetName(), 30);
 		getInputStreetName().sendKeys(streetName);
+		testresultdata.put("23",
+				new Object[] { 1d, "User able to add Street Name", "It Should enterd the Street name", "Pass" });
 
 		logger.info("User able to add City Name");
 		getInputCityName().clear();
 		WaitHelper.seleniumWait(getInputCityName(), 30);
 		getInputCityName().sendKeys(cityName);
+		testresultdata.put("24",
+				new Object[] { 1d, "User able to add City Name", "It Should enterd the City name", "Pass" });
 
 		logger.info("User able to select State Name");
 		WaitHelper.seleniumWait(getSelectStateName(), 30);
 		CommonUtility.getSelectDropDownList(getSelectDropDown(), "New Jersey");
+		testresultdata.put("25", new Object[] { 1d, "User able to select State Name",
+				"It Should selected State name from dropdown", "Pass" });
 
 		logger.info("User able to add Zip Code");
 		getInputZipCode().clear();
 		WaitHelper.seleniumWait(getInputZipCode(), 30);
 		getInputZipCode().sendKeys(zipCode);
+		testresultdata.put("26",
+				new Object[] { 1d, "User able to add Zip Name", "It Should enterd the Zip name", "Pass" });
 
 		logger.info("User able to select Country Name");
 		WaitHelper.seleniumWait(getselectCountryName(), 30);
 		CommonUtility.getSelectValue(getselectCountryName(), "United States");
+		testresultdata.put("27", new Object[] { 1d, "User able to select Country Name",
+				"It Should selected Country Name from dropdown", "Pass" });
 
 		logger.info("User able to add Phone Number");
 		getAddPhoneNumber().clear();
 		WaitHelper.seleniumWait(getAddPhoneNumber(), 30);
 		getAddPhoneNumber().sendKeys(phoneNum);
+		testresultdata.put("28",
+				new Object[] { 1d, "User able to add Phone Number", "It Should enterd Phone Number", "Pass" });
 
 		logger.info("User able to click Ship Here");
 		WaitHelper.seleniumWait(getClickShipHere(), 30);
 		CommonUtility.getJSClick(getClickShipHere());
+		testresultdata.put("29", new Object[] { 1d, "User able to click Ship Here", "It Should clicked", "Pass" });
 
 		logger.info("User able to select Shipping Method");
 		WaitHelper.seleniumWait(getClickShippingMethod(), 30);
 		CommonUtility.getRadioButton(getClickShippingMethod());
+		testresultdata.put("30", new Object[] { 1d, "User able to select Shipping Method",
+				"It Should selected shipping method", "Pass" });
 
 		logger.info("User able to click Next");
 		WaitHelper.seleniumWait(getClickOnNext(), 30);
 		CommonUtility.getJSClick(getClickOnNext());
+		testresultdata.put("31",
+				new Object[] { 1d, "User able to click Next", "It Should displayed Place Order button", "Pass" });
 
 		logger.info("User able to click Place Order");
 		WaitHelper.seleniumWait(getClickOnPlaceOrder(), 30);
 		CommonUtility.getJSClick(getClickOnPlaceOrder());
+		testresultdata.put("32", new Object[] { 1d, "User able to click Place Order",
+				"It Should displayed order confermation", "Pass" });
 
 		logger.info("User able to verify Thank You text");
 		HighLightElements.drawBorder(getVerifiedPurchaseText());
@@ -385,73 +410,17 @@ public class MasterPageFactoryPage extends SupperClass {
 		String actualV = getVerifiedPurchaseText().getText();
 		String expectedV = prop.getProperty("VerifyPurchaseText");
 		CommonUtility.getAssert(expectedV, actualV);
+		testresultdata.put("33", new Object[] { 1d, "User able to verify Thank You text",
+				"It Should displayed text Thank you for your purchase!", "Pass" });
 
 		logger.info("User able to verify Thank You text");
 		HighLightElements.drawBorder(getVerifiedOrderNumber());
 		WaitHelper.seleniumWait(getVerifiedOrderNumber(), 30);
 		String actualNum = getVerifiedPurchaseText().getText();
 		System.out.println(actualNum);
-	}
+		testresultdata.put("34",
+				new Object[] { 1d, "User able to verify Thank You text", "It Should displayed order number", "Pass" });
 
-	public void addShippingDetails() {
-		logger.info("User able to add First Name");
-		getInputFirstName().clear();
-		WaitHelper.seleniumWait(getInputFirstName(), 30);
-		getInputFirstName().sendKeys(CommonUtility.getNewAlphabetValue());
-
-		logger.info("User able to add Last Name");
-		getInputLastName().clear();
-		WaitHelper.seleniumWait(getInputLastName(), 30);
-		getInputLastName().sendKeys(CommonUtility.getNewAlphabetValue());
-
-		logger.info("User able to add Company Name");
-		getInputCompanyName().clear();
-		WaitHelper.seleniumWait(getInputCompanyName(), 30);
-		getInputCompanyName().sendKeys(CommonUtility.getNewAlphabetValue());
-
-		logger.info("User able to add Street Name");
-		getInputStreetName().clear();
-		WaitHelper.seleniumWait(getInputStreetName(), 30);
-		getInputStreetName().sendKeys("123 " + CommonUtility.getNewAlphabetValue());
-
-		logger.info("User able to add City Name");
-		getInputCityName().clear();
-		WaitHelper.seleniumWait(getInputCityName(), 30);
-		getInputCityName().sendKeys("Jersey City");
-
-		logger.info("User able to select State Name");
-		WaitHelper.seleniumWait(getSelectStateName(), 30);
-		CommonUtility.getSelectDropDownList(getSelectDropDown(), "New Jersey");
-
-		logger.info("User able to add Zip Code");
-		getInputZipCode().clear();
-		WaitHelper.seleniumWait(getInputZipCode(), 30);
-		getInputZipCode().sendKeys("01006");
-
-		logger.info("User able to select Country Name");
-		WaitHelper.seleniumWait(getselectCountryName(), 30);
-		CommonUtility.getSelectValue(getselectCountryName(), "United States");
-
-		logger.info("User able to add Phone Number");
-		getAddPhoneNumber().clear();
-		WaitHelper.seleniumWait(getAddPhoneNumber(), 30);
-		getAddPhoneNumber().sendKeys(CommonUtility.getNewNumericValue());
-
-		logger.info("User able to click Ship Here");
-		WaitHelper.seleniumWait(getClickShipHere(), 30);
-		CommonUtility.getJSClick(getClickShipHere());
-
-		logger.info("User able to select Shipping Method");
-		WaitHelper.seleniumWait(getClickShippingMethod(), 30);
-		CommonUtility.getRadioButton(getClickShippingMethod());
-
-		logger.info("User able to click Next");
-		WaitHelper.seleniumWait(getClickOnNext(), 30);
-		CommonUtility.getJSClick(getClickOnNext());
-
-		logger.info("User able to click Place Order");
-		WaitHelper.seleniumWait(getClickOnPlaceOrder(), 30);
-		CommonUtility.getJSClick(getClickOnPlaceOrder());
 	}
 
 	public void getlogin() {
@@ -459,21 +428,27 @@ public class MasterPageFactoryPage extends SupperClass {
 		HighLightElements.drawBorder(getClickSignInBTN());
 		WaitHelper.seleniumWait(getClickSignInBTN(), 30);
 		CommonUtility.getJSClick(getClickSignInBTN());
+		testresultdata.put("4",
+				new Object[] { 1d, "User able to click on sign in button", "It Should clicked", "Pass" });
 
 		logger.info("User able to enter username");
 		HighLightElements.drawBorder(getEnterUserName());
 		WaitHelper.seleniumWait(getEnterUserName(), 30);
 		getEnterUserName().sendKeys(prop.getProperty("userName"));
+		testresultdata.put("5", new Object[] { 1d, "User able to enter username", "It Should Enterd", "Pass" });
 
 		logger.info("User able to enter password");
 		HighLightElements.drawBorder(getEnterPassword());
 		WaitHelper.seleniumWait(getEnterPassword(), 30);
 		getEnterPassword().sendKeys(prop.getProperty("passWord"));
+		testresultdata.put("6", new Object[] { 1d, "User able to enter password", "It Should Enterd", "Pass" });
 
 		logger.info("User able to click on loggerin button");
 		HighLightElements.drawBorder(getClickloggerin());
 		WaitHelper.seleniumWait(getClickloggerin(), 30);
 		CommonUtility.getJSClick(getClickloggerin());
+		testresultdata.put("7",
+				new Object[] { 1d, "User able to click on login button", "It Should displayed landing page", "Pass" });
 
 	}
 
@@ -483,22 +458,29 @@ public class MasterPageFactoryPage extends SupperClass {
 		HighLightElements.drawBorder(getMenModule());
 		WaitHelper.seleniumWait(getMenModule(), 30);
 		CommonUtility.mouseHoverJScript(getMenModule());
+		testresultdata.put("8", new Object[] { 1d, "User able to mousehover over the men module",
+				"It Should displayed dropdown values", "Pass" });
 
 		logger.info("User able to mousehover over the tops");
 		HighLightElements.drawBorder(getSelectTops());
 		WaitHelper.seleniumWait(getSelectTops(), 30);
 		CommonUtility.mouseHoverJScript(getSelectTops());
+		testresultdata.put("9", new Object[] { 1d, "User able to mousehover over the tops",
+				"It Should displayed Jackets options", "Pass" });
 
 		logger.info("User able to click on Jackets");
 		HighLightElements.drawBorder(getSelectJacket());
 		WaitHelper.seleniumWait(getSelectJacket(), 30);
 		CommonUtility.getJSClick(getSelectJacket());
+		testresultdata.put("10",
+				new Object[] { 1d, "User able to click on Jackets", "It Should displayed Jackets page", "Pass" });
 
 		logger.info("User able to click the Specific Jacket");
 		HighLightElements.drawBorder(getSelectJupiterJacket());
 		WaitHelper.seleniumWait(getSelectJupiterJacket(), 30);
 		CommonUtility.getJSClick(getSelectJupiterJacket());
-		// CommonUtilitys.pageScrollDown();
+		testresultdata.put("11", new Object[] { 1d, "User able to click the Specific Jacket",
+				"It Should displayed Jackets price and add to cart", "Pass" });
 
 		logger.info("User able to verify the Specific Jacket");
 		HighLightElements.drawBorder(getVerifiedJupiterJacket());
@@ -507,42 +489,58 @@ public class MasterPageFactoryPage extends SupperClass {
 		String actual = getVerifiedJupiterJacket().getText();
 		Assert.assertEquals(expected, actual);
 		System.out.println(actual);
+		testresultdata.put("12", new Object[] { 1d, "User able to verify the Specific Jacket",
+				"It Should displayed Jackets name Jupiter All-Weather Trainer", "Pass" });
 
 		logger.info("User able to select the size");
 		HighLightElements.drawBorder(getSelectSize());
 		WaitHelper.seleniumWait(getSelectSize(), 30);
 		CommonUtility.getJSClick(getSelectSize());
+		testresultdata.put("13",
+				new Object[] { 1d, "User able to select the size", "It Should selected the size", "Pass" });
 
 		logger.info("User able to select the color");
 		HighLightElements.drawBorder(getSelectColor());
 		WaitHelper.seleniumWait(getSelectColor(), 30);
 		CommonUtility.getJSClick(getSelectColor());
+		testresultdata.put("14",
+				new Object[] { 1d, "User able to select the color", "It Should selected the color", "Pass" });
 
 		logger.info("User able to select the quantity");
 		HighLightElements.drawBorder(getSelectQuantity());
 		WaitHelper.seleniumWait(getSelectQuantity(), 30);
 		getSelectQuantity().clear();
 		getSelectQuantity().sendKeys(prop.getProperty("QT"));
+		testresultdata.put("15",
+				new Object[] { 1d, "User able to select the quantity", "It Should selected the quantity", "Pass" });
 
 		logger.info("User able to add to cart");
 		HighLightElements.drawBorder(getAddToCart());
 		WaitHelper.seleniumWait(getAddToCart(), 30);
 		CommonUtility.getJSClick(getAddToCart());
+		testresultdata.put("16",
+				new Object[] { 1d, "User able to add to cart", "It Should displayed into card ", "Pass" });
 
 		logger.info("User able to click on the shopping cart");
 		HighLightElements.drawBorder(getClickOnShoppingCart());
 		WaitHelper.seleniumWait(getClickOnShoppingCart(), 30);
 		CommonUtility.getJSClick(getClickOnShoppingCart());
+		testresultdata.put("17", new Object[] { 1d, "User able to click on the shopping cart",
+				"It Should displayed proceed to checkout ", "Pass" });
 
 		logger.info("User able to click on proceed to checkout");
 		HighLightElements.drawBorder(getClickProceedToCart());
 		WaitHelper.seleniumWait(getClickProceedToCart(), 30);
 		CommonUtility.getJSClick(getClickProceedToCart());
+		testresultdata.put("18", new Object[] { 1d, "User able to click on proceed to checkout",
+				"It Should displayed shopping address page", "Pass" });
 
 		logger.info("User able to click on new address");
 		HighLightElements.drawBorder(getClickAddNewAddress());
 		WaitHelper.seleniumWait(getClickAddNewAddress(), 30);
 		CommonUtility.getJSClick(getClickAddNewAddress());
+		testresultdata.put("19", new Object[] { 1d, "User able to click on new address",
+				"It Should displayed shopping address dialog box", "Pass" });
 
 	}
 
