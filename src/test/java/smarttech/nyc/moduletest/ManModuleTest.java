@@ -8,11 +8,10 @@ import smarttech.nyc.basepage.SupperClass;
 import smarttech.nyc.elementpage.MasterPageFactoryPage;
 import smarttech.nyc.generic.TestUtil;
 
-
 public class ManModuleTest extends SupperClass {
 	MasterPageFactoryPage pf;
 	TestUtil testUtil;
-	
+
 	public ManModuleTest() {
 		super();
 	}
@@ -21,21 +20,18 @@ public class ManModuleTest extends SupperClass {
 	public void setUp() {
 		initialization();
 		pf = new MasterPageFactoryPage();
-		testUtil = new TestUtil();
 	}
 
 	@DataProvider
 	public Object[][] getTestData() {
-		Object data[][] = testUtil.getTestData("dataSet");
+		Object data[][] = TestUtil.getTestData("dataSet");
 		return data;
 	}
 
 	@Test(dataProvider = "getTestData")
 	public void getloginApplication(String First_Name, String Last_Name, String Company, String Street_Address,
-			String City, String Postal_Code,String Phone_Number) {
+			String City, String Postal_Code, String Phone_Number) {
 		try {
-			pf = new MasterPageFactoryPage();
-			testUtil = new TestUtil();
 			pf.getVerifyJackectPrice();
 			pf.addAddressDetails(First_Name, Last_Name, Company, Street_Address, City, Postal_Code, Phone_Number);
 			pf.getVerifyOrderNum();
@@ -46,7 +42,7 @@ public class ManModuleTest extends SupperClass {
 
 	@AfterMethod
 	public void tearDown() {
-		// driver.quit();
+		driver.quit();
 	}
 
 }

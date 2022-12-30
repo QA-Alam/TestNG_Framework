@@ -103,3 +103,318 @@
 2022-12-29 23:45:28,925 [main] INFO Test Lead Alam - User able to verify Thank You text
 2022-12-29 23:45:28,926 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //div[@class='checkout-success']//strong
 2022-12-29 23:45:28,957 [main] INFO Test Lead Alam - Found Element By : By.xpath: //div[@class='checkout-success']//strong
+2022-12-29 23:50:36,906 [main] INFO Test Lead Alam - ******** I am a chrome browser*********
+2022-12-29 23:50:40,394 [main] INFO Test Lead Alam - Before navigating to: 'https://magento.softwaretestingboard.com/'
+2022-12-29 23:50:41,743 [main] INFO Test Lead Alam - Navigated to:'https://magento.softwaretestingboard.com/'
+2022-12-29 23:50:42,222 [main] INFO Test Lead Alam - User able to click on sign in button
+2022-12-29 23:50:42,230 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//a[contains(text(),'Sign In')])[1]
+2022-12-29 23:50:42,363 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//a[contains(text(),'Sign In')])[1]
+2022-12-29 23:50:43,453 [main] INFO Test Lead Alam - User able to enter username
+2022-12-29 23:50:43,455 [main] INFO Test Lead Alam - Trying to find Element By : By.id: email
+2022-12-29 23:50:43,539 [main] INFO Test Lead Alam - Found Element By : By.id: email
+2022-12-29 23:50:43,907 [main] INFO Test Lead Alam - User able to enter password
+2022-12-29 23:50:43,908 [main] INFO Test Lead Alam - Trying to find Element By : By.id: pass
+2022-12-29 23:50:43,937 [main] INFO Test Lead Alam - Found Element By : By.id: pass
+2022-12-29 23:50:44,111 [main] INFO Test Lead Alam - User able to click on loggerin button
+2022-12-29 23:50:44,112 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//span[contains(text(),'Sign In')])[1]
+2022-12-29 23:50:44,143 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//span[contains(text(),'Sign In')])[1]
+2022-12-29 23:50:45,735 [main] INFO Test Lead Alam - User able to mousehover over the men module
+2022-12-29 23:50:45,738 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //span[text()='Men']
+2022-12-29 23:50:45,862 [main] INFO Test Lead Alam - Found Element By : By.xpath: //span[text()='Men']
+2022-12-29 23:50:46,420 [main] INFO Test Lead Alam - User able to mousehover over the tops
+2022-12-29 23:50:46,421 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//span[text()='Tops'])[2]
+2022-12-29 23:50:46,449 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//span[text()='Tops'])[2]
+2022-12-29 23:50:46,589 [main] INFO Test Lead Alam - User able to click on Jackets
+2022-12-29 23:50:46,589 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//span[text()='Jackets'])[2]
+2022-12-29 23:50:46,620 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//span[text()='Jackets'])[2]
+2022-12-29 23:50:47,671 [main] INFO Test Lead Alam - User able to click the Specific Jacket
+2022-12-29 23:50:47,671 [main] INFO Test Lead Alam - Trying to find Element By : By.linkText: Jupiter All-Weather Trainer
+2022-12-29 23:50:47,891 [main] INFO Test Lead Alam - Found Element By : By.linkText: Jupiter All-Weather Trainer
+2022-12-29 23:50:49,368 [main] INFO Test Lead Alam - User able to verify the Specific Jacket
+2022-12-29 23:50:49,369 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //span[text()='Jupiter All-Weather Trainer ']
+2022-12-29 23:50:49,570 [main] INFO Test Lead Alam - Found Element By : By.xpath: //span[text()='Jupiter All-Weather Trainer ']
+2022-12-29 23:50:49,980 [main] INFO Test Lead Alam - User able to select the size
+2022-12-29 23:50:49,981 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//div[@class='swatch-option text'])[2]
+2022-12-29 23:50:50,214 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//div[@class='swatch-option text'])[2]
+2022-12-29 23:50:50,365 [main] INFO Test Lead Alam - User able to select the color
+2022-12-29 23:50:50,366 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//div[@class='swatch-option color'])[1]
+2022-12-29 23:50:50,398 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//div[@class='swatch-option color'])[1]
+2022-12-29 23:50:50,527 [main] INFO Test Lead Alam - User able to select the quantity
+2022-12-29 23:50:50,528 [main] INFO Test Lead Alam - Trying to find Element By : By.id: qty
+2022-12-29 23:50:50,559 [main] INFO Test Lead Alam - Found Element By : By.id: qty
+2022-12-29 23:50:50,737 [main] INFO Test Lead Alam - User able to add to cart
+2022-12-29 23:50:50,738 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //span[text()='Add to Cart']
+2022-12-29 23:50:50,767 [main] INFO Test Lead Alam - Found Element By : By.xpath: //span[text()='Add to Cart']
+2022-12-29 23:50:50,853 [main] INFO Test Lead Alam - User able to click on the shopping cart
+2022-12-29 23:50:50,854 [main] INFO Test Lead Alam - Trying to find Element By : By.linkText: shopping cart
+2022-12-29 23:50:52,459 [main] INFO Test Lead Alam - Found Element By : By.linkText: shopping cart
+2022-12-29 23:50:54,284 [main] INFO Test Lead Alam - User able to click on proceed to checkout
+2022-12-29 23:50:54,285 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //span[text()='Proceed to Checkout']
+2022-12-29 23:50:54,360 [main] INFO Test Lead Alam - Found Element By : By.xpath: //span[text()='Proceed to Checkout']
+2022-12-29 23:50:56,496 [main] INFO Test Lead Alam - User able to click on new address
+2022-12-29 23:50:56,497 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //*[text()='New Address']
+2022-12-29 23:50:57,984 [main] INFO Test Lead Alam - Found Element By : By.xpath: //*[text()='New Address']
+2022-12-29 23:50:58,244 [main] INFO Test Lead Alam - User able to add First Name
+2022-12-29 23:50:58,245 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[6]
+2022-12-29 23:50:58,947 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[6]
+2022-12-29 23:50:59,187 [main] INFO Test Lead Alam - User able to add Last Name
+2022-12-29 23:50:59,187 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[7]
+2022-12-29 23:50:59,226 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[7]
+2022-12-29 23:50:59,485 [main] INFO Test Lead Alam - User able to add Company Name
+2022-12-29 23:50:59,486 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[8]
+2022-12-29 23:50:59,512 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[8]
+2022-12-29 23:50:59,754 [main] INFO Test Lead Alam - User able to add Street Name
+2022-12-29 23:50:59,755 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[9]
+2022-12-29 23:50:59,799 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[9]
+2022-12-29 23:51:00,075 [main] INFO Test Lead Alam - User able to add City Name
+2022-12-29 23:51:00,076 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[12]
+2022-12-29 23:51:00,098 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[12]
+2022-12-29 23:51:00,298 [main] INFO Test Lead Alam - User able to select State Name
+2022-12-29 23:51:00,299 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//select[@class='select'])[1]
+2022-12-29 23:51:00,329 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//select[@class='select'])[1]
+2022-12-29 23:51:00,374 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//select[@class='select'])[1]/option
+2022-12-29 23:51:00,419 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//select[@class='select'])[1]/option
+2022-12-29 23:51:01,787 [main] INFO Test Lead Alam - Trying to click on: [[ChromeDriver: chrome on XP (c97b0914a08f28c01ae609c680a858e5)] -> xpath: (//select[@class='select'])[1]/option]
+2022-12-29 23:51:01,842 [main] INFO Test Lead Alam - Clicked on: [[ChromeDriver: chrome on XP (c97b0914a08f28c01ae609c680a858e5)] -> xpath: (//select[@class='select'])[1]/option]
+2022-12-29 23:51:02,571 [main] INFO Test Lead Alam - User able to add Zip Code
+2022-12-29 23:51:02,571 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[14]
+2022-12-29 23:51:02,599 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[14]
+2022-12-29 23:51:02,796 [main] INFO Test Lead Alam - User able to select Country Name
+2022-12-29 23:51:02,796 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//select[@class='select'])[2]
+2022-12-29 23:51:02,820 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//select[@class='select'])[2]
+2022-12-29 23:51:02,925 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "United States"]
+2022-12-29 23:51:02,959 [main] INFO Test Lead Alam - Found Element By : By.xpath: .//option[normalize-space(.) = "United States"]
+2022-12-29 23:51:02,984 [main] INFO Test Lead Alam - User able to add Phone Number
+2022-12-29 23:51:02,984 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[15]
+2022-12-29 23:51:03,019 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[15]
+2022-12-29 23:51:03,264 [main] INFO Test Lead Alam - User able to click Ship Here
+2022-12-29 23:51:03,265 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //*[text()='Ship here']
+2022-12-29 23:51:03,294 [main] INFO Test Lead Alam - Found Element By : By.xpath: //*[text()='Ship here']
+2022-12-29 23:51:03,399 [main] INFO Test Lead Alam - User able to select Shipping Method
+2022-12-29 23:51:03,399 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //*[@name='ko_unique_3']
+2022-12-29 23:51:04,132 [main] INFO Test Lead Alam - Found Element By : By.xpath: //*[@name='ko_unique_3']
+2022-12-29 23:51:04,259 [main] INFO Test Lead Alam - Trying to click on: [[ChromeDriver: chrome on XP (c97b0914a08f28c01ae609c680a858e5)] -> xpath: //*[@name='ko_unique_3']]
+2022-12-29 23:51:04,349 [main] INFO Test Lead Alam - Clicked on: [[ChromeDriver: chrome on XP (c97b0914a08f28c01ae609c680a858e5)] -> xpath: //*[@name='ko_unique_3']]
+2022-12-29 23:51:04,350 [main] INFO Test Lead Alam - User able to click Next
+2022-12-29 23:51:04,350 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //span[text()='Next']
+2022-12-29 23:51:04,381 [main] INFO Test Lead Alam - Found Element By : By.xpath: //span[text()='Next']
+2022-12-29 23:51:04,477 [main] INFO Test Lead Alam - User able to click Place Order
+2022-12-29 23:51:04,477 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //*[contains(text(),'Place Order')]
+2022-12-29 23:51:05,759 [main] INFO Test Lead Alam - Found Element By : By.xpath: //*[contains(text(),'Place Order')]
+2022-12-29 23:51:05,824 [main] INFO Test Lead Alam - User able to verify Thank You text
+2022-12-29 23:51:05,825 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //*[contains(text(),'Thank you for your purchase!')]
+2022-12-29 23:51:08,680 [main] INFO Test Lead Alam - Found Element By : By.xpath: //*[contains(text(),'Thank you for your purchase!')]
+2022-12-29 23:51:08,977 [main] INFO Test Lead Alam - Verified textThank you for your purchase!
+2022-12-29 23:51:08,978 [main] INFO Test Lead Alam - User able to verify Thank You text
+2022-12-29 23:51:08,978 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //div[@class='checkout-success']//strong
+2022-12-29 23:51:09,013 [main] INFO Test Lead Alam - Found Element By : By.xpath: //div[@class='checkout-success']//strong
+2022-12-29 23:51:21,225 [main] INFO Test Lead Alam - ******** I am a chrome browser*********
+2022-12-29 23:51:25,220 [main] INFO Test Lead Alam - Before navigating to: 'https://magento.softwaretestingboard.com/'
+2022-12-29 23:51:26,803 [main] INFO Test Lead Alam - Navigated to:'https://magento.softwaretestingboard.com/'
+2022-12-29 23:51:27,414 [main] INFO Test Lead Alam - User able to click on sign in button
+2022-12-29 23:51:27,423 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//a[contains(text(),'Sign In')])[1]
+2022-12-29 23:51:27,513 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//a[contains(text(),'Sign In')])[1]
+2022-12-29 23:51:28,896 [main] INFO Test Lead Alam - User able to enter username
+2022-12-29 23:51:28,897 [main] INFO Test Lead Alam - Trying to find Element By : By.id: email
+2022-12-29 23:51:28,998 [main] INFO Test Lead Alam - Found Element By : By.id: email
+2022-12-29 23:51:29,379 [main] INFO Test Lead Alam - User able to enter password
+2022-12-29 23:51:29,380 [main] INFO Test Lead Alam - Trying to find Element By : By.id: pass
+2022-12-29 23:51:29,413 [main] INFO Test Lead Alam - Found Element By : By.id: pass
+2022-12-29 23:51:29,600 [main] INFO Test Lead Alam - User able to click on loggerin button
+2022-12-29 23:51:29,601 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//span[contains(text(),'Sign In')])[1]
+2022-12-29 23:51:29,636 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//span[contains(text(),'Sign In')])[1]
+2022-12-29 23:51:31,219 [main] INFO Test Lead Alam - User able to mousehover over the men module
+2022-12-29 23:51:31,222 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //span[text()='Men']
+2022-12-29 23:51:31,323 [main] INFO Test Lead Alam - Found Element By : By.xpath: //span[text()='Men']
+2022-12-29 23:51:31,665 [main] INFO Test Lead Alam - User able to mousehover over the tops
+2022-12-29 23:51:31,665 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//span[text()='Tops'])[2]
+2022-12-29 23:51:31,707 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//span[text()='Tops'])[2]
+2022-12-29 23:51:31,820 [main] INFO Test Lead Alam - User able to click on Jackets
+2022-12-29 23:51:31,821 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//span[text()='Jackets'])[2]
+2022-12-29 23:51:31,849 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//span[text()='Jackets'])[2]
+2022-12-29 23:51:33,089 [main] INFO Test Lead Alam - User able to click the Specific Jacket
+2022-12-29 23:51:33,089 [main] INFO Test Lead Alam - Trying to find Element By : By.linkText: Jupiter All-Weather Trainer
+2022-12-29 23:51:33,256 [main] INFO Test Lead Alam - Found Element By : By.linkText: Jupiter All-Weather Trainer
+2022-12-29 23:51:34,775 [main] INFO Test Lead Alam - User able to verify the Specific Jacket
+2022-12-29 23:51:34,777 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //span[text()='Jupiter All-Weather Trainer ']
+2022-12-29 23:51:34,918 [main] INFO Test Lead Alam - Found Element By : By.xpath: //span[text()='Jupiter All-Weather Trainer ']
+2022-12-29 23:51:35,041 [main] INFO Test Lead Alam - User able to select the size
+2022-12-29 23:51:35,042 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//div[@class='swatch-option text'])[2]
+2022-12-29 23:51:35,066 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//div[@class='swatch-option text'])[2]
+2022-12-29 23:51:35,239 [main] INFO Test Lead Alam - User able to select the color
+2022-12-29 23:51:35,240 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//div[@class='swatch-option color'])[1]
+2022-12-29 23:51:35,292 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//div[@class='swatch-option color'])[1]
+2022-12-29 23:51:35,419 [main] INFO Test Lead Alam - User able to select the quantity
+2022-12-29 23:51:35,419 [main] INFO Test Lead Alam - Trying to find Element By : By.id: qty
+2022-12-29 23:51:35,450 [main] INFO Test Lead Alam - Found Element By : By.id: qty
+2022-12-29 23:51:35,636 [main] INFO Test Lead Alam - User able to add to cart
+2022-12-29 23:51:35,637 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //span[text()='Add to Cart']
+2022-12-29 23:51:35,665 [main] INFO Test Lead Alam - Found Element By : By.xpath: //span[text()='Add to Cart']
+2022-12-29 23:51:35,778 [main] INFO Test Lead Alam - User able to click on the shopping cart
+2022-12-29 23:51:35,779 [main] INFO Test Lead Alam - Trying to find Element By : By.linkText: shopping cart
+2022-12-29 23:51:37,227 [main] INFO Test Lead Alam - Found Element By : By.linkText: shopping cart
+2022-12-29 23:51:39,070 [main] INFO Test Lead Alam - User able to click on proceed to checkout
+2022-12-29 23:51:39,072 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //span[text()='Proceed to Checkout']
+2022-12-29 23:51:39,242 [main] INFO Test Lead Alam - Found Element By : By.xpath: //span[text()='Proceed to Checkout']
+2022-12-29 23:51:40,957 [main] INFO Test Lead Alam - User able to click on new address
+2022-12-29 23:51:40,959 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //*[text()='New Address']
+2022-12-29 23:51:42,363 [main] INFO Test Lead Alam - Found Element By : By.xpath: //*[text()='New Address']
+2022-12-29 23:51:42,546 [main] INFO Test Lead Alam - User able to add First Name
+2022-12-29 23:51:42,547 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[6]
+2022-12-29 23:51:43,159 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[6]
+2022-12-29 23:51:43,415 [main] INFO Test Lead Alam - User able to add Last Name
+2022-12-29 23:51:43,416 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[7]
+2022-12-29 23:51:43,442 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[7]
+2022-12-29 23:51:43,712 [main] INFO Test Lead Alam - User able to add Company Name
+2022-12-29 23:51:43,713 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[8]
+2022-12-29 23:51:43,736 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[8]
+2022-12-29 23:51:43,966 [main] INFO Test Lead Alam - User able to add Street Name
+2022-12-29 23:51:43,966 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[9]
+2022-12-29 23:51:43,991 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[9]
+2022-12-29 23:51:44,236 [main] INFO Test Lead Alam - User able to add City Name
+2022-12-29 23:51:44,237 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[12]
+2022-12-29 23:51:44,270 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[12]
+2022-12-29 23:51:44,499 [main] INFO Test Lead Alam - User able to select State Name
+2022-12-29 23:51:44,499 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//select[@class='select'])[1]
+2022-12-29 23:51:44,522 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//select[@class='select'])[1]
+2022-12-29 23:51:44,561 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//select[@class='select'])[1]/option
+2022-12-29 23:51:44,595 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//select[@class='select'])[1]/option
+2022-12-29 23:51:45,876 [main] INFO Test Lead Alam - Trying to click on: [[ChromeDriver: chrome on XP (19a0fd4312e62fb1d92be45b2d0c185f)] -> xpath: (//select[@class='select'])[1]/option]
+2022-12-29 23:51:45,931 [main] INFO Test Lead Alam - Clicked on: [[ChromeDriver: chrome on XP (19a0fd4312e62fb1d92be45b2d0c185f)] -> xpath: (//select[@class='select'])[1]/option]
+2022-12-29 23:51:46,680 [main] INFO Test Lead Alam - User able to add Zip Code
+2022-12-29 23:51:46,680 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[14]
+2022-12-29 23:51:46,712 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[14]
+2022-12-29 23:51:46,917 [main] INFO Test Lead Alam - User able to select Country Name
+2022-12-29 23:51:46,917 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//select[@class='select'])[2]
+2022-12-29 23:51:46,948 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//select[@class='select'])[2]
+2022-12-29 23:51:47,033 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "United States"]
+2022-12-29 23:51:47,057 [main] INFO Test Lead Alam - Found Element By : By.xpath: .//option[normalize-space(.) = "United States"]
+2022-12-29 23:51:47,084 [main] INFO Test Lead Alam - User able to add Phone Number
+2022-12-29 23:51:47,085 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[15]
+2022-12-29 23:51:47,143 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[15]
+2022-12-29 23:51:47,384 [main] INFO Test Lead Alam - User able to click Ship Here
+2022-12-29 23:51:47,384 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //*[text()='Ship here']
+2022-12-29 23:51:47,409 [main] INFO Test Lead Alam - Found Element By : By.xpath: //*[text()='Ship here']
+2022-12-29 23:51:47,486 [main] INFO Test Lead Alam - User able to select Shipping Method
+2022-12-29 23:51:47,487 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //*[@name='ko_unique_3']
+2022-12-29 23:51:48,075 [main] INFO Test Lead Alam - Found Element By : By.xpath: //*[@name='ko_unique_3']
+2022-12-29 23:51:48,126 [main] INFO Test Lead Alam - Trying to click on: [[ChromeDriver: chrome on XP (19a0fd4312e62fb1d92be45b2d0c185f)] -> xpath: //*[@name='ko_unique_3']]
+2022-12-29 23:51:48,188 [main] INFO Test Lead Alam - Clicked on: [[ChromeDriver: chrome on XP (19a0fd4312e62fb1d92be45b2d0c185f)] -> xpath: //*[@name='ko_unique_3']]
+2022-12-29 23:51:48,188 [main] INFO Test Lead Alam - User able to click Next
+2022-12-29 23:51:48,188 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //span[text()='Next']
+2022-12-29 23:51:48,212 [main] INFO Test Lead Alam - Found Element By : By.xpath: //span[text()='Next']
+2022-12-29 23:51:48,301 [main] INFO Test Lead Alam - User able to click Place Order
+2022-12-29 23:51:48,301 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //*[contains(text(),'Place Order')]
+2022-12-29 23:51:49,658 [main] INFO Test Lead Alam - Found Element By : By.xpath: //*[contains(text(),'Place Order')]
+2022-12-29 23:51:49,737 [main] INFO Test Lead Alam - User able to verify Thank You text
+2022-12-29 23:51:49,737 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //*[contains(text(),'Thank you for your purchase!')]
+2022-12-29 23:51:52,557 [main] INFO Test Lead Alam - Found Element By : By.xpath: //*[contains(text(),'Thank you for your purchase!')]
+2022-12-29 23:51:52,825 [main] INFO Test Lead Alam - Verified textThank you for your purchase!
+2022-12-29 23:51:52,825 [main] INFO Test Lead Alam - User able to verify Thank You text
+2022-12-29 23:51:52,826 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //div[@class='checkout-success']//strong
+2022-12-29 23:51:52,864 [main] INFO Test Lead Alam - Found Element By : By.xpath: //div[@class='checkout-success']//strong
+2022-12-29 23:52:29,578 [main] INFO Test Lead Alam - ******** I am a chrome browser*********
+2022-12-29 23:52:32,944 [main] INFO Test Lead Alam - Before navigating to: 'https://magento.softwaretestingboard.com/'
+2022-12-29 23:52:34,654 [main] INFO Test Lead Alam - Navigated to:'https://magento.softwaretestingboard.com/'
+2022-12-29 23:52:35,018 [main] INFO Test Lead Alam - User able to click on sign in button
+2022-12-29 23:52:35,026 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//a[contains(text(),'Sign In')])[1]
+2022-12-29 23:52:35,152 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//a[contains(text(),'Sign In')])[1]
+2022-12-29 23:52:36,273 [main] INFO Test Lead Alam - User able to enter username
+2022-12-29 23:52:36,274 [main] INFO Test Lead Alam - Trying to find Element By : By.id: email
+2022-12-29 23:52:36,353 [main] INFO Test Lead Alam - Found Element By : By.id: email
+2022-12-29 23:52:36,690 [main] INFO Test Lead Alam - User able to enter password
+2022-12-29 23:52:36,691 [main] INFO Test Lead Alam - Trying to find Element By : By.id: pass
+2022-12-29 23:52:36,727 [main] INFO Test Lead Alam - Found Element By : By.id: pass
+2022-12-29 23:52:36,882 [main] INFO Test Lead Alam - User able to click on loggerin button
+2022-12-29 23:52:36,883 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//span[contains(text(),'Sign In')])[1]
+2022-12-29 23:52:36,916 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//span[contains(text(),'Sign In')])[1]
+2022-12-29 23:52:38,533 [main] INFO Test Lead Alam - User able to mousehover over the men module
+2022-12-29 23:52:38,536 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //span[text()='Men']
+2022-12-29 23:52:38,606 [main] INFO Test Lead Alam - Found Element By : By.xpath: //span[text()='Men']
+2022-12-29 23:52:38,934 [main] INFO Test Lead Alam - User able to mousehover over the tops
+2022-12-29 23:52:38,934 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//span[text()='Tops'])[2]
+2022-12-29 23:52:38,964 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//span[text()='Tops'])[2]
+2022-12-29 23:52:39,055 [main] INFO Test Lead Alam - User able to click on Jackets
+2022-12-29 23:52:39,055 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//span[text()='Jackets'])[2]
+2022-12-29 23:52:39,087 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//span[text()='Jackets'])[2]
+2022-12-29 23:52:40,383 [main] INFO Test Lead Alam - User able to click the Specific Jacket
+2022-12-29 23:52:40,383 [main] INFO Test Lead Alam - Trying to find Element By : By.linkText: Jupiter All-Weather Trainer
+2022-12-29 23:52:40,437 [main] INFO Test Lead Alam - Found Element By : By.linkText: Jupiter All-Weather Trainer
+2022-12-29 23:52:41,153 [main] INFO Test Lead Alam - User able to verify the Specific Jacket
+2022-12-29 23:52:41,153 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //span[text()='Jupiter All-Weather Trainer ']
+2022-12-29 23:52:41,269 [main] INFO Test Lead Alam - Found Element By : By.xpath: //span[text()='Jupiter All-Weather Trainer ']
+2022-12-29 23:52:41,525 [main] INFO Test Lead Alam - User able to select the size
+2022-12-29 23:52:41,526 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//div[@class='swatch-option text'])[2]
+2022-12-29 23:52:41,558 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//div[@class='swatch-option text'])[2]
+2022-12-29 23:52:41,779 [main] INFO Test Lead Alam - User able to select the color
+2022-12-29 23:52:41,779 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//div[@class='swatch-option color'])[1]
+2022-12-29 23:52:41,811 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//div[@class='swatch-option color'])[1]
+2022-12-29 23:52:41,952 [main] INFO Test Lead Alam - User able to select the quantity
+2022-12-29 23:52:41,953 [main] INFO Test Lead Alam - Trying to find Element By : By.id: qty
+2022-12-29 23:52:41,980 [main] INFO Test Lead Alam - Found Element By : By.id: qty
+2022-12-29 23:52:42,175 [main] INFO Test Lead Alam - User able to add to cart
+2022-12-29 23:52:42,176 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //span[text()='Add to Cart']
+2022-12-29 23:52:42,200 [main] INFO Test Lead Alam - Found Element By : By.xpath: //span[text()='Add to Cart']
+2022-12-29 23:52:42,285 [main] INFO Test Lead Alam - User able to click on the shopping cart
+2022-12-29 23:52:42,286 [main] INFO Test Lead Alam - Trying to find Element By : By.linkText: shopping cart
+2022-12-29 23:52:43,723 [main] INFO Test Lead Alam - Found Element By : By.linkText: shopping cart
+2022-12-29 23:52:45,505 [main] INFO Test Lead Alam - User able to click on proceed to checkout
+2022-12-29 23:52:45,505 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //span[text()='Proceed to Checkout']
+2022-12-29 23:52:45,580 [main] INFO Test Lead Alam - Found Element By : By.xpath: //span[text()='Proceed to Checkout']
+2022-12-29 23:52:47,445 [main] INFO Test Lead Alam - User able to click on new address
+2022-12-29 23:52:47,446 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //*[text()='New Address']
+2022-12-29 23:52:48,910 [main] INFO Test Lead Alam - Found Element By : By.xpath: //*[text()='New Address']
+2022-12-29 23:52:49,017 [main] INFO Test Lead Alam - User able to add First Name
+2022-12-29 23:52:49,018 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[6]
+2022-12-29 23:52:49,272 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[6]
+2022-12-29 23:52:49,978 [main] INFO Test Lead Alam - User able to add Last Name
+2022-12-29 23:52:49,979 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[7]
+2022-12-29 23:52:50,000 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[7]
+2022-12-29 23:52:50,249 [main] INFO Test Lead Alam - User able to add Company Name
+2022-12-29 23:52:50,250 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[8]
+2022-12-29 23:52:50,287 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[8]
+2022-12-29 23:52:50,512 [main] INFO Test Lead Alam - User able to add Street Name
+2022-12-29 23:52:50,512 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[9]
+2022-12-29 23:52:50,551 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[9]
+2022-12-29 23:52:50,801 [main] INFO Test Lead Alam - User able to add City Name
+2022-12-29 23:52:50,801 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[12]
+2022-12-29 23:52:50,822 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[12]
+2022-12-29 23:52:51,026 [main] INFO Test Lead Alam - User able to select State Name
+2022-12-29 23:52:51,026 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//select[@class='select'])[1]
+2022-12-29 23:52:51,058 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//select[@class='select'])[1]
+2022-12-29 23:52:51,132 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//select[@class='select'])[1]/option
+2022-12-29 23:52:51,169 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//select[@class='select'])[1]/option
+2022-12-29 23:52:52,481 [main] INFO Test Lead Alam - Trying to click on: [[ChromeDriver: chrome on XP (c0fb4737c688d6c5f584b5c9d8043f10)] -> xpath: (//select[@class='select'])[1]/option]
+2022-12-29 23:52:52,529 [main] INFO Test Lead Alam - Clicked on: [[ChromeDriver: chrome on XP (c0fb4737c688d6c5f584b5c9d8043f10)] -> xpath: (//select[@class='select'])[1]/option]
+2022-12-29 23:52:53,281 [main] INFO Test Lead Alam - User able to add Zip Code
+2022-12-29 23:52:53,281 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[14]
+2022-12-29 23:52:53,298 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[14]
+2022-12-29 23:52:53,478 [main] INFO Test Lead Alam - User able to select Country Name
+2022-12-29 23:52:53,478 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//select[@class='select'])[2]
+2022-12-29 23:52:53,506 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//select[@class='select'])[2]
+2022-12-29 23:52:53,655 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "United States"]
+2022-12-29 23:52:53,681 [main] INFO Test Lead Alam - Found Element By : By.xpath: .//option[normalize-space(.) = "United States"]
+2022-12-29 23:52:53,705 [main] INFO Test Lead Alam - User able to add Phone Number
+2022-12-29 23:52:53,706 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: (//input[@class='input-text'])[15]
+2022-12-29 23:52:53,727 [main] INFO Test Lead Alam - Found Element By : By.xpath: (//input[@class='input-text'])[15]
+2022-12-29 23:52:53,955 [main] INFO Test Lead Alam - User able to click Ship Here
+2022-12-29 23:52:53,955 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //*[text()='Ship here']
+2022-12-29 23:52:53,978 [main] INFO Test Lead Alam - Found Element By : By.xpath: //*[text()='Ship here']
+2022-12-29 23:52:54,055 [main] INFO Test Lead Alam - User able to select Shipping Method
+2022-12-29 23:52:54,057 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //*[@name='ko_unique_3']
+2022-12-29 23:52:54,771 [main] INFO Test Lead Alam - Found Element By : By.xpath: //*[@name='ko_unique_3']
+2022-12-29 23:52:54,825 [main] INFO Test Lead Alam - Trying to click on: [[ChromeDriver: chrome on XP (c0fb4737c688d6c5f584b5c9d8043f10)] -> xpath: //*[@name='ko_unique_3']]
+2022-12-29 23:52:54,909 [main] INFO Test Lead Alam - Clicked on: [[ChromeDriver: chrome on XP (c0fb4737c688d6c5f584b5c9d8043f10)] -> xpath: //*[@name='ko_unique_3']]
+2022-12-29 23:52:54,909 [main] INFO Test Lead Alam - User able to click Next
+2022-12-29 23:52:54,909 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //span[text()='Next']
+2022-12-29 23:52:54,935 [main] INFO Test Lead Alam - Found Element By : By.xpath: //span[text()='Next']
+2022-12-29 23:52:55,022 [main] INFO Test Lead Alam - User able to click Place Order
+2022-12-29 23:52:55,023 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //*[contains(text(),'Place Order')]
+2022-12-29 23:52:56,511 [main] INFO Test Lead Alam - Found Element By : By.xpath: //*[contains(text(),'Place Order')]
+2022-12-29 23:52:56,561 [main] INFO Test Lead Alam - User able to verify Thank You text
+2022-12-29 23:52:56,562 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //*[contains(text(),'Thank you for your purchase!')]
+2022-12-29 23:52:59,646 [main] INFO Test Lead Alam - Found Element By : By.xpath: //*[contains(text(),'Thank you for your purchase!')]
+2022-12-29 23:53:00,031 [main] INFO Test Lead Alam - Verified textThank you for your purchase!
+2022-12-29 23:53:00,032 [main] INFO Test Lead Alam - User able to verify Thank You text
+2022-12-29 23:53:00,032 [main] INFO Test Lead Alam - Trying to find Element By : By.xpath: //div[@class='checkout-success']//strong
+2022-12-29 23:53:00,062 [main] INFO Test Lead Alam - Found Element By : By.xpath: //div[@class='checkout-success']//strong

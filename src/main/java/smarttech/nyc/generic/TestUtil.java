@@ -23,7 +23,7 @@ public class TestUtil extends SupperClass {
 	static Sheet sheet;
 	static JavascriptExecutor js;
 
-	public static Object[][] getTestData(String sheetName) {
+	public static  Object[][] getTestData(String sheetName) {
 		FileInputStream file = null;
 		try {
 			file = new FileInputStream(TESTDATA_SHEET_PATH);
@@ -49,7 +49,7 @@ public class TestUtil extends SupperClass {
 	}
 
 	public static void main(String[] args) {
-		getTestData("dataSet");
+		//getTestData("dataSet");
 	}
 	
 	public static void takeScreenshotAtEndOfTest() throws IOException {
