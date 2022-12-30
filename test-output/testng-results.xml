@@ -2,24 +2,61 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-27T02:16:27Z" name="Suite" finished-at="2022-12-27T02:16:42Z" duration-ms="15448">
+  <suite started-at="2022-12-30T04:40:32Z" name="Default suite" finished-at="2022-12-30T04:41:04Z" duration-ms="31870">
     <groups>
     </groups>
-    <test started-at="2022-12-27T02:16:27Z" name="Test" finished-at="2022-12-27T02:16:42Z" duration-ms="15448">
+    <test started-at="2022-12-30T04:40:32Z" name="Default test" finished-at="2022-12-30T04:41:04Z" duration-ms="31870">
       <class name="smarttech.nyc.moduletest.ManModuleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@15bb5034]" started-at="2022-12-27T02:16:27Z" name="setUp" finished-at="2022-12-27T02:16:34Z" duration-ms="6871" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1817f1eb]" started-at="2022-12-30T04:40:33Z" name="setUp" finished-at="2022-12-30T04:40:39Z" duration-ms="6054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getloginApplication()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@15bb5034]" started-at="2022-12-27T02:16:34Z" name="getloginApplication" finished-at="2022-12-27T02:16:41Z" duration-ms="7311" status="PASS">
+        <test-method signature="getloginApplication(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1817f1eb]" started-at="2022-12-30T04:40:39Z" name="getloginApplication" data-provider="getTestData" finished-at="2022-12-30T04:41:04Z" duration-ms="24934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mohammed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SmartTech ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3721 35th ave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Jackson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11378]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1231231234]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getloginApplication -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@15bb5034]" started-at="2022-12-27T02:16:41Z" name="tearDown" finished-at="2022-12-27T02:16:42Z" duration-ms="1202" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1817f1eb]" started-at="2022-12-30T04:41:04Z" name="tearDown" finished-at="2022-12-30T04:41:04Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- smarttech.nyc.moduletest.ManModuleTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

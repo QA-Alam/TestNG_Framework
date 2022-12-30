@@ -1,26 +1,24 @@
 package smarttech.nyc.elementpage;
 
 import java.util.List;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import smarttech.nyc.basepage.SupperClass;
 import smarttech.nyc.generic.CommonUtility;
 import smarttech.nyc.generic.HighLightElements;
 import smarttech.nyc.generic.WaitHelper;
 
-public class MasterPageFactoryPage extends SupperClass{
+public class MasterPageFactoryPage extends SupperClass {
 
 	public MasterPageFactoryPage() {
-
 		PageFactory.initElements(driver, this);
 
 	}
-    //------
+
 	@FindBy(xpath = "(//a[contains(text(),'Sign In')])[1]")
 	@CacheLookup
 	private WebElement clickSignInBTN;
@@ -29,6 +27,7 @@ public class MasterPageFactoryPage extends SupperClass{
 		return clickSignInBTN;
 
 	}
+
 	@FindBy(id = "email")
 	@CacheLookup
 	private WebElement enterUserName;
@@ -37,6 +36,7 @@ public class MasterPageFactoryPage extends SupperClass{
 		return enterUserName;
 
 	}
+
 	@FindBy(id = "pass")
 	@CacheLookup
 	private WebElement enterPassword;
@@ -45,6 +45,7 @@ public class MasterPageFactoryPage extends SupperClass{
 		return enterPassword;
 
 	}
+
 	@FindBy(xpath = "(//span[contains(text(),'Sign In')])[1]")
 	@CacheLookup
 	private WebElement clickloggerin;
@@ -53,6 +54,7 @@ public class MasterPageFactoryPage extends SupperClass{
 		return clickloggerin;
 
 	}
+
 	@FindBy(xpath = "//*[text()='Welcome, Smart Tech!']")
 	@CacheLookup
 	private WebElement landingPageText;
@@ -61,8 +63,8 @@ public class MasterPageFactoryPage extends SupperClass{
 		return landingPageText;
 
 	}
-	
-	//-------------
+
+	// -------------
 	@FindBy(xpath = "//span[text()='Men']")
 	@CacheLookup
 	private WebElement menModule;
@@ -71,6 +73,7 @@ public class MasterPageFactoryPage extends SupperClass{
 		return menModule;
 
 	}
+
 	@FindBy(xpath = "(//span[text()='Tops'])[2]")
 	@CacheLookup
 	private WebElement selectTops;
@@ -79,6 +82,7 @@ public class MasterPageFactoryPage extends SupperClass{
 		return selectTops;
 
 	}
+
 	@FindBy(xpath = "(//span[text()='Jackets'])[2]")
 	@CacheLookup
 	private WebElement selectJacket;
@@ -88,7 +92,6 @@ public class MasterPageFactoryPage extends SupperClass{
 
 	}
 
-	
 	@FindBy(linkText = "Jupiter All-Weather Trainer")
 	@CacheLookup
 	private WebElement selectJupiterJacket;
@@ -97,7 +100,7 @@ public class MasterPageFactoryPage extends SupperClass{
 		return selectJupiterJacket;
 
 	}
-	  
+
 	@FindBy(xpath = "//span[text()='Jupiter All-Weather Trainer ']")
 	@CacheLookup
 	private WebElement verifiedJupiterJacket;
@@ -170,7 +173,7 @@ public class MasterPageFactoryPage extends SupperClass{
 
 	}
 
-    //---------address details
+	// ---------address details
 	@FindBy(xpath = "(//input[@class='input-text'])[6]")
 	@CacheLookup
 	private WebElement addFirstName;
@@ -216,7 +219,6 @@ public class MasterPageFactoryPage extends SupperClass{
 
 	}
 
-	// @FindBy(xpath = "//select[@class='select']")
 	@FindBy(xpath = "(//select[@class='select'])[1]")
 	@CacheLookup
 	private WebElement selectStateName;
@@ -225,7 +227,7 @@ public class MasterPageFactoryPage extends SupperClass{
 		return selectStateName;
 
 	}
-	
+
 	@FindBy(xpath = "(//select[@class='select'])[1]/option")
 	@CacheLookup
 	private List<WebElement> selectDropDown;
@@ -245,7 +247,6 @@ public class MasterPageFactoryPage extends SupperClass{
 	}
 
 	@FindBy(xpath = "(//select[@class='select'])[2]")
-	// @FindBy(xpath = "//*[@id='OKJ35FM']")
 	@CacheLookup
 	private WebElement selectCountryName;
 
@@ -280,6 +281,7 @@ public class MasterPageFactoryPage extends SupperClass{
 		return clickShippingMethod;
 
 	}
+
 	@FindBy(xpath = "//span[text()='Next']")
 	@CacheLookup
 	private WebElement clickOnNext;
@@ -288,7 +290,7 @@ public class MasterPageFactoryPage extends SupperClass{
 		return clickOnNext;
 
 	}
-	
+
 	@FindBy(xpath = "//*[contains(text(),'Place Order')]")
 	@CacheLookup
 	private WebElement clickOnPlaceOrder;
@@ -297,7 +299,7 @@ public class MasterPageFactoryPage extends SupperClass{
 		return clickOnPlaceOrder;
 
 	}
-	
+
 	@FindBy(xpath = "//*[contains(text(),'Thank you for your purchase!')]")
 	@CacheLookup
 	private WebElement verifiedPurchaseText;
@@ -306,7 +308,7 @@ public class MasterPageFactoryPage extends SupperClass{
 		return verifiedPurchaseText;
 
 	}
-	
+
 	@FindBy(xpath = "//div[@class='checkout-success']//strong")
 	@CacheLookup
 	private WebElement verifiedOrderNumber;
@@ -316,17 +318,79 @@ public class MasterPageFactoryPage extends SupperClass{
 
 	}
 
+	public void addAddressDetails(String FName, String LName, String companyName, String streetName, String cityName,
+			String zipCode, String phoneNum) {
+		logger.info("User able to add First Name");
+		getInputFirstName().clear();
+		WaitHelper.seleniumWait(getInputFirstName(), 30);
+		getInputFirstName().sendKeys(FName);
+
+		logger.info("User able to add Last Name");
+		getInputLastName().clear();
+		WaitHelper.seleniumWait(getInputLastName(), 30);
+		getInputLastName().sendKeys(LName);
+
+		logger.info("User able to add Company Name");
+		getInputCompanyName().clear();
+		WaitHelper.seleniumWait(getInputCompanyName(), 30);
+		getInputCompanyName().sendKeys(companyName);
+
+		logger.info("User able to add Street Name");
+		getInputStreetName().clear();
+		WaitHelper.seleniumWait(getInputStreetName(), 30);
+		getInputStreetName().sendKeys(streetName);
+
+		logger.info("User able to add City Name");
+		getInputCityName().clear();
+		WaitHelper.seleniumWait(getInputCityName(), 30);
+		getInputCityName().sendKeys(cityName);
+
+		logger.info("User able to select State Name");
+		WaitHelper.seleniumWait(getSelectStateName(), 30);
+		CommonUtility.getSelectDropDownList(getSelectDropDown(), "New Jersey");
+
+		logger.info("User able to add Zip Code");
+		getInputZipCode().clear();
+		WaitHelper.seleniumWait(getInputZipCode(), 30);
+		getInputZipCode().sendKeys(zipCode);
+
+		logger.info("User able to select Country Name");
+		WaitHelper.seleniumWait(getselectCountryName(), 30);
+		CommonUtility.getSelectValue(getselectCountryName(), "United States");
+
+		logger.info("User able to add Phone Number");
+		getAddPhoneNumber().clear();
+		WaitHelper.seleniumWait(getAddPhoneNumber(), 30);
+		getAddPhoneNumber().sendKeys(phoneNum);
+
+		logger.info("User able to click Ship Here");
+		WaitHelper.seleniumWait(getClickShipHere(), 30);
+		CommonUtility.getJSClick(getClickShipHere());
+
+		logger.info("User able to select Shipping Method");
+		WaitHelper.seleniumWait(getClickShippingMethod(), 30);
+		CommonUtility.getRadioButton(getClickShippingMethod());
+
+		logger.info("User able to click Next");
+		WaitHelper.seleniumWait(getClickOnNext(), 30);
+		CommonUtility.getJSClick(getClickOnNext());
+
+		logger.info("User able to click Place Order");
+		WaitHelper.seleniumWait(getClickOnPlaceOrder(), 30);
+		CommonUtility.getJSClick(getClickOnPlaceOrder());
+	}
+
 	public void addShippingDetails() {
 		logger.info("User able to add First Name");
 		getInputFirstName().clear();
 		WaitHelper.seleniumWait(getInputFirstName(), 30);
-		getInputFirstName().sendKeys(CommonUtility.getNewAlphabetValue()+ "@gmail.com");
+		getInputFirstName().sendKeys(CommonUtility.getNewAlphabetValue());
 
 		logger.info("User able to add Last Name");
 		getInputLastName().clear();
 		WaitHelper.seleniumWait(getInputLastName(), 30);
 		getInputLastName().sendKeys(CommonUtility.getNewAlphabetValue());
-		
+
 		logger.info("User able to add Company Name");
 		getInputCompanyName().clear();
 		WaitHelper.seleniumWait(getInputCompanyName(), 30);
@@ -344,10 +408,8 @@ public class MasterPageFactoryPage extends SupperClass{
 
 		logger.info("User able to select State Name");
 		WaitHelper.seleniumWait(getSelectStateName(), 30);
-		//CommonUtilitys.getSelectValue(getSelectStateName(), "New Jersey");
 		CommonUtility.getSelectDropDownList(getSelectDropDown(), "New Jersey");
-		
-		
+
 		logger.info("User able to add Zip Code");
 		getInputZipCode().clear();
 		WaitHelper.seleniumWait(getInputZipCode(), 30);
@@ -364,30 +426,26 @@ public class MasterPageFactoryPage extends SupperClass{
 
 		logger.info("User able to click Ship Here");
 		WaitHelper.seleniumWait(getClickShipHere(), 30);
-		CommonUtility.getActionClick(getClickShipHere());
-		
+		CommonUtility.getJSClick(getClickShipHere());
+
 		logger.info("User able to select Shipping Method");
 		WaitHelper.seleniumWait(getClickShippingMethod(), 30);
 		CommonUtility.getRadioButton(getClickShippingMethod());
-		//CommonUtilitys.getActionClick(getClickShippingMethod());
-		//getClickShippingMethod().click();
-		
+
 		logger.info("User able to click Next");
 		WaitHelper.seleniumWait(getClickOnNext(), 30);
-		CommonUtility.getActionClick(getClickOnNext());
-		
+		CommonUtility.getJSClick(getClickOnNext());
+
 		logger.info("User able to click Place Order");
 		WaitHelper.seleniumWait(getClickOnPlaceOrder(), 30);
-		//CommonUtilitys.getActionClick(getClickOnPlaceOrder());
 		CommonUtility.getJSClick(getClickOnPlaceOrder());
-		//CommonUtilitys.clickUntilElementClickAble(getClickOnPlaceOrder());
 	}
 
 	public void getlogin() {
 		logger.info("User able to click on sign in button");
 		HighLightElements.drawBorder(getClickSignInBTN());
 		WaitHelper.seleniumWait(getClickSignInBTN(), 30);
-		CommonUtility.getActionClick(getClickSignInBTN());
+		CommonUtility.getJSClick(getClickSignInBTN());
 
 		logger.info("User able to enter username");
 		HighLightElements.drawBorder(getEnterUserName());
@@ -402,7 +460,91 @@ public class MasterPageFactoryPage extends SupperClass{
 		logger.info("User able to click on loggerin button");
 		HighLightElements.drawBorder(getClickloggerin());
 		WaitHelper.seleniumWait(getClickloggerin(), 30);
-		CommonUtility.getActionClick(getClickloggerin());
+		CommonUtility.getJSClick(getClickloggerin());
 
+	}
+
+	public void getVerifyJackectPrice() {
+		getlogin();
+		logger.info("User able to mousehover over the men module");
+		HighLightElements.drawBorder(getMenModule());
+		WaitHelper.seleniumWait(getMenModule(), 30);
+		CommonUtility.mouseHoverJScript(getMenModule());
+
+		logger.info("User able to mousehover over the tops");
+		HighLightElements.drawBorder(getSelectTops());
+		WaitHelper.seleniumWait(getSelectTops(), 30);
+		CommonUtility.mouseHoverJScript(getSelectTops());
+
+		logger.info("User able to click on Jackets");
+		HighLightElements.drawBorder(getSelectJacket());
+		WaitHelper.seleniumWait(getSelectJacket(), 30);
+		CommonUtility.getJSClick(getSelectJacket());
+
+		logger.info("User able to click the Specific Jacket");
+		HighLightElements.drawBorder(getSelectJupiterJacket());
+		WaitHelper.seleniumWait(getSelectJupiterJacket(), 30);
+		CommonUtility.getJSClick(getSelectJupiterJacket());
+		// CommonUtilitys.pageScrollDown();
+
+		logger.info("User able to verify the Specific Jacket");
+		HighLightElements.drawBorder(getVerifiedJupiterJacket());
+		WaitHelper.seleniumWait(getVerifiedJupiterJacket(), 30);
+		String expected = prop.getProperty("Jacketname");
+		String actual = getVerifiedJupiterJacket().getText();
+		Assert.assertEquals(expected, actual);
+		System.out.println(actual);
+
+		logger.info("User able to select the size");
+		HighLightElements.drawBorder(getSelectSize());
+		WaitHelper.seleniumWait(getSelectSize(), 30);
+		CommonUtility.getJSClick(getSelectSize());
+
+		logger.info("User able to select the color");
+		HighLightElements.drawBorder(getSelectColor());
+		WaitHelper.seleniumWait(getSelectColor(), 30);
+		CommonUtility.getJSClick(getSelectColor());
+
+		logger.info("User able to select the quantity");
+		HighLightElements.drawBorder(getSelectQuantity());
+		WaitHelper.seleniumWait(getSelectQuantity(), 30);
+		getSelectQuantity().clear();
+		getSelectQuantity().sendKeys(prop.getProperty("QT"));
+
+		logger.info("User able to add to cart");
+		HighLightElements.drawBorder(getAddToCart());
+		WaitHelper.seleniumWait(getAddToCart(), 30);
+		CommonUtility.getJSClick(getAddToCart());
+
+		logger.info("User able to click on the shopping cart");
+		HighLightElements.drawBorder(getClickOnShoppingCart());
+		WaitHelper.seleniumWait(getClickOnShoppingCart(), 30);
+		CommonUtility.getJSClick(getClickOnShoppingCart());
+
+		logger.info("User able to click on proceed to checkout");
+		HighLightElements.drawBorder(getClickProceedToCart());
+		WaitHelper.seleniumWait(getClickProceedToCart(), 30);
+		CommonUtility.getJSClick(getClickProceedToCart());
+
+		logger.info("User able to click on new address");
+		HighLightElements.drawBorder(getClickAddNewAddress());
+		WaitHelper.seleniumWait(getClickAddNewAddress(), 30);
+		CommonUtility.getJSClick(getClickAddNewAddress());
+
+	}
+
+	public void getVerifyOrderNum() {
+		logger.info("User able to verify Thank You text");
+		HighLightElements.drawBorder(getVerifiedPurchaseText());
+		WaitHelper.seleniumWait(getVerifiedPurchaseText(), 30);
+		String actualV = getVerifiedPurchaseText().getText();
+		String expectedV = prop.getProperty("VerifyPurchaseText");
+		CommonUtility.getAssert(expectedV, actualV);
+
+		logger.info("User able to verify Thank You text");
+		HighLightElements.drawBorder(getVerifiedOrderNumber());
+		WaitHelper.seleniumWait(getVerifiedOrderNumber(), 30);
+		String actualNum = getVerifiedPurchaseText().getText();
+		System.out.println(actualNum);
 	}
 }
