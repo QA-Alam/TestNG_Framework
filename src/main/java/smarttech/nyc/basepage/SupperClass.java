@@ -12,10 +12,12 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.apache.poi.poifs.filesystem.POIFSFileSystem;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -39,6 +41,7 @@ public class SupperClass {
 	public static Workbook book;
 	public static Sheet sheet;
 	public static LinkedHashMap<String, Object[]> testresultdata;
+	String excelPath = "./TestNG_Framework.xlsx";
 
 	public SupperClass() {
 		logger = Logger.getLogger("Test Lead Alam"); // Added logger
@@ -91,7 +94,6 @@ public class SupperClass {
 
 	@BeforeClass(alwaysRun = true)
 	public void setupBeforeSuite(ITestContext context) {
-		// create a new work book
 		book = new XSSFWorkbook();
 		// create a new work sheet
 		sheet = book.createSheet("TEST_RESULT");
@@ -128,7 +130,7 @@ public class SupperClass {
 			}
 		}
 		try {
-			FileOutputStream out = new FileOutputStream(new File("./TestNG_Framework.xlsx"));
+			FileOutputStream out = new FileOutputStream(new File(excelPath));
 			book.write(out);
 			out.close();
 			System.out.println("Excel written successfully..");

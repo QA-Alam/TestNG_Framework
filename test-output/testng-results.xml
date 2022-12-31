@@ -2,27 +2,27 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-30T15:04:07Z" name="Suite" finished-at="2022-12-30T15:04:45Z" duration-ms="38082">
+  <suite started-at="2022-12-30T23:29:23Z" name="Suite" finished-at="2022-12-30T23:30:00Z" duration-ms="37419">
     <groups>
     </groups>
-    <test started-at="2022-12-30T15:04:07Z" name="Test" finished-at="2022-12-30T15:04:45Z" duration-ms="38082">
+    <test started-at="2022-12-30T23:29:23Z" name="Test" finished-at="2022-12-30T23:30:00Z" duration-ms="37419">
       <class name="smarttech.nyc.moduletest.ManModuleTest">
-        <test-method is-config="true" signature="setupBeforeSuite(org.testng.ITestContext)[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1be2019a]" started-at="2022-12-30T15:04:07Z" name="setupBeforeSuite" finished-at="2022-12-30T15:04:08Z" duration-ms="779" status="PASS">
+        <test-method is-config="true" signature="setupBeforeSuite(org.testng.ITestContext)[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1be2019a]" started-at="2022-12-30T23:29:23Z" name="setupBeforeSuite" finished-at="2022-12-30T23:29:24Z" duration-ms="791" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4c1d59cd]]>
+                <![CDATA[org.testng.TestRunner@383cb5ce]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBeforeSuite -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1be2019a]" started-at="2022-12-30T15:04:08Z" name="setUp" finished-at="2022-12-30T15:04:14Z" duration-ms="6339" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1be2019a]" started-at="2022-12-30T23:29:24Z" name="setUp" finished-at="2022-12-30T23:29:31Z" duration-ms="7007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getloginApplication(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1be2019a]" started-at="2022-12-30T15:04:14Z" name="getloginApplication" data-provider="getTestData" finished-at="2022-12-30T15:04:44Z" duration-ms="29695" status="PASS">
+        <test-method signature="getloginApplication(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1be2019a]" started-at="2022-12-30T23:29:31Z" name="getloginApplication" data-provider="getTestData" finished-at="2022-12-30T23:29:59Z" duration-ms="27999" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,15 +63,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getloginApplication -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1be2019a]" started-at="2022-12-30T15:04:44Z" name="tearDown" finished-at="2022-12-30T15:04:45Z" duration-ms="502" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1be2019a]" started-at="2022-12-30T23:29:59Z" name="tearDown" finished-at="2022-12-30T23:30:00Z" duration-ms="974" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupAfterSuite(org.testng.ITestContext)[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1be2019a]" started-at="2022-12-30T15:04:45Z" name="setupAfterSuite" finished-at="2022-12-30T15:04:45Z" duration-ms="338" status="PASS">
+        <test-method is-config="true" signature="setupAfterSuite(org.testng.ITestContext)[pri:0, instance:smarttech.nyc.moduletest.ManModuleTest@1be2019a]" started-at="2022-12-30T23:30:00Z" name="setupAfterSuite" finished-at="2022-12-30T23:30:00Z" duration-ms="240" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4c1d59cd]]>
+                <![CDATA[org.testng.TestRunner@383cb5ce]]>
               </value>
             </param>
           </params>
