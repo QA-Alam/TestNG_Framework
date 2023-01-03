@@ -102,7 +102,7 @@ public class SupperClass {
 		// write the header in the first row
 		testresultdata.put("1", new Object[] { "TESTER_NMAE", "SCENARIO", "ENVIRONMENT", "DATE_TESTED" });
 		testresultdata.put("2", new Object[] { "QA-ALAM", "Valid user can purchase jupiter jackets",
-				"QA Envoronment and Chrome Browser", "12/30/2022" });
+				"QA Envoronment and Chrome Browser", "01/01/2023" });
 
 		testresultdata.put("3", new Object[] { "TEST_ID", "ACTION", "EXPECTED_RESULT", "ACTUAL_RESULT" });
 

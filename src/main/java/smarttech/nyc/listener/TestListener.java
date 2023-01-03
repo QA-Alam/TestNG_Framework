@@ -27,8 +27,8 @@ public class TestListener implements ITestListener {
 	@Override
 	public void onTestStart(ITestResult result) {
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
-		//String repName = "report-" + timeStamp + ".html";
-		String repName = "myReport-" +".html";
+		String repName = "report-" + timeStamp + ".html";
+		//String repName = "myReport-" +".html";
 		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/ExtendReports/" + repName);// specify
 																											// location
 																											// // of the

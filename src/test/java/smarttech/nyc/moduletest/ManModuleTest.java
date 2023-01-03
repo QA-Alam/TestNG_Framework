@@ -10,7 +10,6 @@ import smarttech.nyc.generic.CommonUtility;
 
 public class ManModuleTest extends SupperClass {
 	MasterPageFactoryPage pf;
-
 	public ManModuleTest() {
 		super();
 	}
